@@ -2,8 +2,8 @@ import smtplib #訊息物件
 import email.message
 account = str(input('請輸入帳號: '))
 if account == "test" :
-	account = "lol.test.hah@gmail.com"
-	password = "test39047790"
+	account = ""
+	password = ""
 	print("自動登入成功")
 else:
 	password = str(input('請輸入密碼: '))
